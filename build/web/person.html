@@ -1,0 +1,42 @@
+<html dir="ltr"><head>
+        <title>Person</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    </head>
+
+    <body contenteditable="true">
+
+        <div class="header">
+            <button id="btnSearch">Обновить</button>
+            <button id="btnAdd">Создать</button>
+        </div>
+
+
+        <div class="leftArea">
+            <ul id="personList"></ul>
+        </div>
+
+        <form id="personForm">
+
+            <div class="mainArea">
+
+                <label>Id:</label>
+                <input id="personId" name="id" type="number" disabled="">
+
+                <label>ФИО:</label>
+                <input type="text" id="fio" name="fio" required="">
+
+                <label>День Рождения:</label>
+                <input type="date" id="bdate" name="fio" required="">
+                
+                <button id="btnSave">Сохранить</button>
+                <button id="btnDelete">Удалить</button>
+
+            </div>
+        </form>
+
+        <script src="js/main.js"></script>
+
+    
+</body></html>
